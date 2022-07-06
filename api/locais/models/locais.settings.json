@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locais",
+  "info": {
+    "name": "Locais",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
