@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "locais",
   "info": {
-    "name": "Locais",
+    "name": "Places",
     "description": ""
   },
   "options": {
@@ -18,7 +18,16 @@
       "unique": true
     },
     "link": {
-      "type": "string"
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

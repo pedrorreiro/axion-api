@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "foods",
   "info": {
-    "name": "Comidas"
+    "name": "foods",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,7 +18,16 @@
       "unique": true
     },
     "link": {
-      "type": "string"
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
