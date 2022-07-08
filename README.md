@@ -6,5 +6,5 @@
 
 O banco já possui também um usuário cadastrado com as seguintes credenciais:
 
-    user: axioner@axion.company
-    senha: Axioner123
+    Usuário: axioner@axion.company
+    Senha: Axioner123
